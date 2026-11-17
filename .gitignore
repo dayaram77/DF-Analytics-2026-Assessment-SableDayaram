@@ -1,6 +1,31 @@
-venv/
+
+# Python
 __pycache__/
+*.py[cod]
+*.pyd
+.Python
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Jupyter
 .ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment variables and secrets
 .env
-*.pyc
+.env.*
+!.env.example
+
+# Raw and confidential datasets
+data/raw/*.csv
+
+# Temporary files
+*.log
 .DS_Store
+Thumbs.db
